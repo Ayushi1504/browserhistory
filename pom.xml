@@ -1,0 +1,42 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.mycompany.app</groupId>
+    <artifactId>my-app</artifactId>
+    <version>1</version>
+
+<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
+<dependencies>
+    <dependency>
+        <groupId>za.co.absa</groupId>
+        <artifactId>jdbc2s_2.11</artifactId>
+        <version>1.0.0</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.spark</groupId>
+        <artifactId>spark-core_2.11</artifactId>
+        <version>2.2.1</version>
+    </dependency>
+    <dependency>
+    <groupId>org.apache.spark</groupId>
+    <artifactId>spark-sql_2.11</artifactId>
+    <version>2.2.1</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->
+
+    <dependency>
+        <groupId>org.xerial</groupId>
+        <artifactId>sqlite-jdbc</artifactId>
+        <version>3.36.0.3</version>
+    </dependency>
+
+
+
+
+
+    <!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql -->
+
+</dependencies>
+
+</project>
