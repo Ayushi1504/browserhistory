@@ -1,4 +1,4 @@
-# BROWSER HISTORY
+# GOOGLE CHROME BROWSER HISTORY
 
 Google chrome saves our surfing data in local sqlite3 db.
 With this project i have tried to create an application which will live monitor the stream of my surfing history on google chrome.
@@ -16,3 +16,4 @@ and for this spark Mllib library can be used.
 Hence for any user , broad category of time spent on different urls will be visible then to better improve thei time.
 
 As a proof of the work done till now , i have been working on this project hence google a lot about spark problems. Hence the below screenshot validates the same.
+![](resources/input/SPARKPROJECT.PNG)
