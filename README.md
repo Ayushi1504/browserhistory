@@ -3,7 +3,7 @@
 Google Chrome saves our internet surfing data as a sqlite3 db file on our local machines.
 
 With this project i have tried to create an application which will live monitor the stream of my surfing history on google chrome.
-To achieve this spark structured streaming API is used. Since jdbc streaming in spark streaming isn't a functionality yet hence I have connected
+To achieve this spark structured streaming API is used. Since jdbc streaming in spark streaming isn't a functionality yet, I have connected
 to the sqllite3 db via spark jdbc connector & exported the required data saved it on fly as a csv file.
 This file is routinely updated every 5 mins.
 Spark Streaming API later reads the csv file and provides live update to which urls have been visited the most after appling some sql operations.
