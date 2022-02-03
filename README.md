@@ -34,7 +34,7 @@ Hence the below screenshot validates the same :
 - Spark Streaming a JDBC Source Table/Result 
   
   Since Spark stream works on only on a file source type, kafka connection or a socket connection.
-  We converted the required query result/table from the db and saved it into a temp csv format file,
+  I converted the required query result/table from the db and saved it into a temp csv format file,
   which was later read and live streamed using spark structured streaming api.
 
 ## Points of Improvement
